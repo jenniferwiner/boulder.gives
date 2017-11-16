@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Jquery, Bootstrap JS, other JS -->
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="index.js" charset="utf-8"></script>
+    <!-- Styles! -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="create-request.css" rel="stylesheet" type="text/css">
+    <title>Boulder.gives</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1> I Need... </h1>
+      <form>
+        <div class="form-group">
+          <label>Title</label>
+          <input type="text" class="form-control" placeholder="Help With Microsoft Word">
+        </div>
+        <div class="form-group">
+          <label>Description</label>
+          <textarea class="form-control" rows="3" placeholder="I don't know how to use Word and I want to write a letter."></textarea>
+        </div>
+        <div class="form-group">
+          <label>Category</label>
+          <select class="form-control">
+            <option>select category</option>
+            <option>school/office supplies</option>
+            <option>tech/computer help</option>
+            <option>food</option>
+            <option>clothes</option>
+            <option>event space</option>
+            <option>shelter</option>
+            <option>transportation</option>
+            <option>pet care</option>
+            <option>training/education</option>
+            <option>support/companionship</option>
+            <option>misc</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <button type="button" class="btn btn-primary">Create Request</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
