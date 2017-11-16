@@ -38,6 +38,16 @@
   width: 80%;
 }
 
+
+.category {
+  text-align: center;
+}
+
+.category img{
+  width:150px;
+  height:150px;
+}
+
 body {
   margin: 0;
   padding: 0;
