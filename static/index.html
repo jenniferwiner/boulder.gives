@@ -10,6 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="index.js" charset="utf-8"></script>
     <!-- Styles! -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato|Rubik" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css">
@@ -17,10 +18,14 @@
   </head>
   <body>
     <div class="container">
+      <div class="pyro">
+        <div class="before"></div>
+        <div class="after"></div>
+      </div>
       <h1 id="home-heading">Boulder<br/><span id="home-subheading">[gives]</span></h1>
       <div class="home-buttons text-center">
-          <button type="button" class="btn" onclick="location.href='donate.html';">Donate</button>
-          <button type="button" class="btn" onclick="location.href='create-request.html';">Request</button>
+          <button type="button" class="btn animated lightSpeedIn" onclick="location.href='donate.html';">Donate</button>
+          <button type="button" class="btn animated lightSpeedIn" onclick="location.href='create-request.html';">Request</button>
       </div>
   </body>
   <footer class="footer">
