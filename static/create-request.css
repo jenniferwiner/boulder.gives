@@ -1,3 +1,9 @@
 .container {
+  text-align: center;
   width: 50%;
+}
+
+label {
+  text-align: left;
+  font-size: 18px;
 }
