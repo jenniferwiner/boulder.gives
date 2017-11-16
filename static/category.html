@@ -11,26 +11,40 @@
     <script src="index.js" charset="utf-8"></script>
     <!-- Styles! -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.5/sweetalert2.all.js"></script>
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="category.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Rubik" rel="stylesheet">
     <title>Boulder.gives</title>
   </head>
   <body>
     <div class="container">
-      <h1>Computer Help</h1>
+      <h1 id="home-heading">Tech Help<br/><span id="home-subheading">[requests]</span></h1>
       <br />
       <!-- For each request -->
       <h3> Git </h3>
       <h4> Help me!!! I have merge conflicts!!! </h4>
-      <button type="button" class="btn btn-success">Offer Help!</button>
-
+      <button type="button" class="btn btn-lg btn-success" onclick="swal(
+      'Thank You!',
+      'You have offered to help with Git',
+      'success'
+      )">Offer Help!</button>
+      <br />
       <h3> Rails </h3>
       <h4> I don't understand the asset pipline. Can someone please help me? </h4>
-      <button type="button" class="btn btn-success">Offer Help!</button>
-
+      <button type="button" class="btn btn-lg btn-success" onclick="swal(
+      'Thank You!',
+      'You have offered to help with Rails',
+      'success'
+      )">Offer Help!</button>
+      <br />
       <h3> CSS </h3>
       <h4> Why is everything so terrible? Can someone explain this? </h4>
-      <button type="button" class="btn btn-success">Offer Help!</button>
+      <button type="button" class="btn btn-lg btn-success" onclick="swal(
+      'Thank You!',
+      'You have offered to help with CSS',
+      'success'
+      )">Offer Help!</button>
     </div>
   </body>
 </html>
